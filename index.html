@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mail Client</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="index.js"></script>
+  <div class="content">
+    <form action="http://0.0.0.0:5000/send" method="GET">
+      <table>
+        
+        <tr>
+          <div>
+            <td><label for="option">Do you want to attach file.</label></td>
+            <td><input name="option" id="option" value="no"></td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <td><label for="receiver">To whom you want to send?</label></td>
+            <td><input name="receiver" id="receiver" value="himanshubhalla2002@gmail.com"></td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <td><label for="subject">Subject </label></td>
+            <td><input name="subject" id="subject" value="Hi"></td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <td><label for="body">Message</label></td>
+            <td><input name="body" id="body" value="How are you"></td>
+          </div>
+        </tr>
+        <tr>
+          <div>
+            <td><label for="attach">Path of attached file</label></td>
+            <td><input name="attach" id="attach" value=".png"></td>
+          </div>
+        </tr>
+        
+      </table>
+      
+        <div>
+          <button>Send</button>
+        </div>
+      
+    </form>
+  </div>
+
+</body>
+
+</html>

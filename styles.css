@@ -1,0 +1,17 @@
+body {
+  background-image: url("https://i.imgur.com/vPSHqY0.gif");
+   background-color: #FFFF00;
+   background-position: center; /* Center the image */
+   /* background-repeat: no-repeat; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    height: inherit;
+    width: inherit;
+ }
+
+ .content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 40ex;
+ }
