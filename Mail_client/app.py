@@ -104,7 +104,7 @@ def send_email():
     else:
         # you can enter your username in fromaddr
 
-        fromaddr = "gbsir87@gmail.com"
+        fromaddr = "your email"
         toaddr = receiver
 
         msg = MIMEMultipart()
@@ -137,7 +137,7 @@ def send_email():
         s.starttls()
         # you can enter your password in s.login() after fromaddr
 
-        s.login(fromaddr, "qwaszxerdfcv12#$")
+        s.login(fromaddr, "Your_Password")
 
         text = msg.as_string()
 
